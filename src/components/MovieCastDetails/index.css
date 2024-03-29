@@ -1,0 +1,62 @@
+.cast-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  .cast-heading {
+    color: rgb(200, 200, 200);
+    font-family: 'Roboto';
+    font-size: 25px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+  }
+  ::-webkit-scrollbar{
+    height: 8px;
+    width: 5px;
+    background-color: rgb(50, 50, 50);
+    border-radius: 12px;
+  }
+  ::-webkit-scrollbar-thumb{
+    background-color: rgb(243, 239, 239);
+    width: 5px;
+    border-radius: 12px;
+  }
+  .cast-item-contianer {
+    display: flex;
+    overflow-x: auto;
+    padding-left: 0;
+  }
+  .cast-item {
+    margin-right: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    height: 350px;
+  }
+  .cast-img {
+    width: 200px;
+    height: 250px;
+  }
+  .character-name {
+    color: rgb(237, 235, 235);
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .name {
+    color: rgb(254, 254, 254);
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-top: 10px;
+  }
+ @media (max-width: 576px){
+  .cast-img{
+    width: 150px;
+    height: 170px;
+  }
+  .cast-item{
+    width: 150px;
+    height: 280px;
+  }
+ }
